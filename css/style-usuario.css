@@ -5,7 +5,7 @@ font: font-family: 'Lobster', cursive;
 */
 
 body{
-	width: 100%;
+	width: auto;
 	background-color: #3E3F41;
 }
 
@@ -22,11 +22,11 @@ h3 {
 	font-family: 'Lobster', cursive;
 }
 
-.form-box {
-	margin-top: 80px;
+.form-box {   /* MARGEN ENTRE LOGO Y FORMULARIO */
+	margin-top: 50px;
 }
 
-.form-control{
+.form-control{ /* LOS INPUTS */
 	border: 0px;
 	height: 38px;
 	margin-left: 0px;
@@ -34,7 +34,7 @@ h3 {
 	
 }
 
-.input-group-addon{
+.input-group-addon{ /* ICONOS QUE VAN AL LADO DE LOS INPUTS */
 	
 	
 	width: 60px;
@@ -42,10 +42,33 @@ h3 {
 	border: 0px;
 }
 
-.btn-default{
-	width: 476px;
-	height: 63px;
+.btn-primary{ /* BOTON INICIAR SESION */
+	
 	background-color: #F6A800;
-	margin-left: -2px;
+	font-family: 'Lobster', cursive;
+	border: 0px;
+	
+	
+}
+/* ESTILOS TEXTO REGISTROS */
+.textpass{
+	font-family: 'Lobster', cursive;
+	color: #F6A800;
+	margin-top: 10px;
+	text-align: start;
+}
+
+.text1{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-top: 50px;
+}
+
+.text2{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #F6A800;
+	margin-top: 50px;
 	
 }

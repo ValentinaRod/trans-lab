@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	$("#calculosaldo").on("click", function(){
 		var saldoFinal = $("#guardarsaldo").val();
+        console.log*saldoFinal;
     $.ajax({
             url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + saldoFinal, 
             type: 'GET',
@@ -9,7 +10,7 @@ $(document).ready(function(){
         })
 
         .done(function(response){
-        	$("#resultado-saldo").append("<div>"+ response.saldoTarjeta + "</div>")
+        	$(".saldoTarjeta").append("<div>"+ response.saldoTarjeta + "</div>")
             console.log(response.saldoTarjeta);
         })
 
@@ -19,3 +20,5 @@ $(document).ready(function(){
     });
 	
     });
+
+

@@ -1,0 +1,27 @@
+
+.fondoyellow{
+    background: #F4B500;
+}
+
+
+.circular--square {
+    width: 100px;
+    height: 100px;
+    
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.email{
+    border: none;
+}
+
+.tarjet{
+    border bottom: 1px solid #DCDDDF;
+}
+
+.fondogris{
+    background:#DCDDDF;
+}

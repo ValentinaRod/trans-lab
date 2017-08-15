@@ -168,7 +168,8 @@ a:hover
   }
 
 h4 {
-
+  display:flex;
+  justify-content:flex-start;
   font-family: 'Lobster', cursive;
 
 }
@@ -195,7 +196,7 @@ label{
 }
 
 .btn-primary:hover{
-  background: #F6A800 !important;
+  background-color: #F6A800;
   border:none;
 
 }

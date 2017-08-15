@@ -22,7 +22,8 @@ a:hover
   text-decoration: none;
 }
 
-#menuToggle{
+#menuToggle
+{
   display: block;
   position: relative;
   top: 50px;
@@ -61,9 +62,8 @@ a:hover
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  top: 14px;
-  right: 3px;
-  background: #F6A800;
+  
+  background: #000;
   border-radius: 3px;
   
   z-index: 1;
@@ -83,8 +83,8 @@ a:hover
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
-  font-size: 20px;
-  color:#F6A800;
+  font-size: 40px;
+  color:#000;
   font-family: 'Lobster', cursive;
 }
 
@@ -144,7 +144,6 @@ a:hover
 {
   padding: 10px 0;
   font-size: 22px;
-  font-family: 'Lobster', cursive;
 }
 
 /*
@@ -164,12 +163,13 @@ a:hover
     text-align: center;
     line-height: 5;
     background-color:#F6A800; 
-    
+    border: 10px solid #000;
   }
+}
 
 h4 {
-
-  font-family: 'Lobster', cursive;
+  display:flex;
+  justify-content:flex-start;
 
 }
 
@@ -180,22 +180,17 @@ label{
     display: flex;
     justify-content: center;
 } 
-/*colores de botones*/
+/*colores de botones*===========*/
 
-.btn-primary{
-  background-color: #F6A800;
-  border:none;
-}
-
-.versaldo{
-  background-color: #F6A800;
-  border-color: 1px solid #000;
-  display:flex;
-  justify-content: center;
+.btn-primary:hover{
+ 
+ background-color: #F6A800;
 }
 
 .btn-primary:hover{
-  background: #F6A800 !important;
-  border:none;
+  border-color: #F6A800;
+}
 
+.btn-primary{
+  background-color: #F6A800;
 }

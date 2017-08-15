@@ -47,8 +47,10 @@ h3 {
 	background-color: #F6A800;
 	font-family: 'Lobster', cursive;
 	border: 0px;
-	
-	
+}
+
+.btn-primary:hover{
+  background-color: #F6A800; 
 }
 /* ESTILOS TEXTO REGISTROS */
 .textpass{
